@@ -1,2 +1,3 @@
-/mvnw text eol=lf
-*.cmd text eol=crlf
+# Flyway calcula checksums de los SQL. Mantener un formato uniforme evita
+# cambios de checksum provocados solo por los saltos de línea.
+*.sql text eol=lf
